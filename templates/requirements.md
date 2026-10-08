@@ -13,12 +13,16 @@ Owned by Paul. AI may propose changes; none land without approval.
 ## Character
 <How the app should look and sound. A few words on tone, visual feel, anything that makes it its own.>
 
+## Design
+- **Design system:** <Claude Design link: colors, type, core components>
+- **Screens:** <Claude Design link(s) for approved screens>
+
 ## Features
 Each feature names who uses it and when. If it can't, it doesn't belong here.
 
-| Feature | Use case (who, when) | Core journey? |
-|---|---|---|
-| <feature> | <e.g. "Mike, Sunday morning, checking his picks"> | yes/no |
+| Feature | Use case (who, when) | Core journey? | Detail |
+|---|---|---|---|
+| <feature> | <e.g. "Mike, Sunday morning, checking his picks"> | yes/no | [features/<feature>.md](features/<feature>.md) or — |
 
 Core journeys get e2e coverage.
 
