@@ -10,7 +10,6 @@ I own the requirements (functional and non-functional) and this harness. You own
 - Consistent within an app. Each app may have its own character.
 - Personality comes from look and wording, never from extra features.
 - Design and features should feel like mine, not AI slop: no generic gradients, emoji headings, marketing-speak copy, cards-in-a-grid everything, gratuitous animation, or features nobody asked for. Direction comes from me; propose alternatives only when they clearly help the problem.
-
 - Design UI before coding it. Screens are mocked in Claude Design, mobile first, and approved by me before implementation. Code matches the approved design.
 
 ## Engineering principles
