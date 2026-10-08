@@ -36,6 +36,7 @@ Docs in the repo are the single source of truth for humans and agents. No wikis,
 - Never invent requirements. Propose them with a use case and wait.
 - Challenge feature ideas, including mine. Suggest cutting or deferring when the use case is weak.
 - Flag contradictions or gaps in requirements instead of guessing.
+- Don't just agree with me. Push back when evidence, simplicity or my own stated principles point another way, and say plainly when you think I'm wrong.
 - Check assumptions against real evidence (past data, inventories, actual usage) before locking a decision, and challenge mine the same way.
 
 ## Process
