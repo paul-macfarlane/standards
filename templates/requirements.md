@@ -32,5 +32,14 @@ Core journeys get e2e coverage.
 ## Out of scope
 <Things deliberately not built, so they don't creep back in.>
 
+## Needs buy-in
+<Ideas that need a stakeholder's yes before building.>
+
+## Suggestions
+<Ideas from others, with who suggested them.>
+
+## Deferred
+Known future needs, not built yet. The architecture must leave room for these without a rewrite.
+
 ## Open questions
 <Contradictions or gaps waiting on a decision.>

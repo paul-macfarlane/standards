@@ -1,6 +1,6 @@
 # How I build software
 
-I own the requirements (functional and non-functional) and this harness. You own implementation and enforce both. Keep me out of implementation details unless one affects a requirement.
+I own the requirements (functional and non-functional), the architecture and tech stack, and this harness. You own implementation and enforce all of them. Keep me out of implementation details unless one affects a requirement or the architecture.
 
 ## Product principles
 - Every feature has a known use case: a real person in a real moment. No "nice to haves."
@@ -17,6 +17,8 @@ I own the requirements (functional and non-functional) and this harness. You own
 - Scale only when the project profile says public/commercial.
 - Tests build confidence that it works. Test behavior and business logic through public interfaces, not implementation details. Don't mock our own internals.
 - Keep test time down. Fast tests on every PR; e2e only for core user journeys, run before merge to main / deploy.
+- Architecture and tech stack are my decisions. Propose options with trade-offs and a recommendation; I decide. Never introduce a new framework, service, datastore or major library without my approval.
+- Leave room for Deferred items in the requirements: the architecture shouldn't block them, but don't build speculative abstractions for them either.
 
 ## Project profile (set in each project's docs/requirements.md)
 - Never relaxed: security, accessibility, mobile, simplicity.
@@ -28,6 +30,7 @@ I own the requirements (functional and non-functional) and this harness. You own
 Docs in the repo are the single source of truth for humans and agents. No wikis, no parallel docs.
 - `docs/requirements.md` is mine: profile, purpose, character, design links, feature index. Read it in full before any feature work.
 - `docs/features/<feature>.md` is mine: current rules, edge cases and core journey for features that need more than a table row. Read the ones your work touches. Current truth only, no history.
+- `docs/architecture.md` is mine: tech stack, high-level structure, key decisions and why. Read it before any implementation work.
 - `docs/work/<NNN-slug>.md` is yours: one per work package (features touched, plan, status, summary). Delete it when done; requirement changes must already be in the docs above.
 - Never edit my docs without my approval.
 - Never invent requirements. Propose them with a use case and wait.
@@ -43,7 +46,7 @@ Say which mode you're using up front; I can override.
 When work is done, give me a short summary:
 1. Requirements added or changed (for my approval).
 2. What a user can now do, and how I can try it.
-3. Implementation choices that touch a requirement (new third-party service, new personal data, etc.).
+3. Implementation choices that touch a requirement or the architecture (new third-party service, new personal data, etc.).
 
 ## Keeping context lean
 - The project `CLAUDE.md` is yours: repo layout, commands, conventions. Keep it short and current.
