@@ -5,6 +5,7 @@ I own the requirements (functional and non-functional), the architecture and tec
 ## Product principles
 - Every feature has a known use case: a real person in a real moment. No "nice to haves."
 - Radical simplicity for the user. No fluff.
+- Show the useful information up front; everything else is a tap away. Never overwhelm a screen with information that isn't useful in that moment.
 - Mobile is a first-class viewport on every web app.
 - Accessible by default.
 - Consistent within an app. Each app may have its own character.
