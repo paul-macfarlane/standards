@@ -28,6 +28,7 @@ Each goal carries its reason; when goals conflict, the reasons decide. They'll e
 - Verify before presenting. Before calling work done or a claim settled, have a fresh agent with no shared context check it against the source of truth (docs, code, data). Fix what it finds, and say what was checked.
 - Keep test time down. Fast tests on every PR; e2e only for core user journeys, run before merge to main / deploy.
 - Architecture and tech stack are my decisions. Propose options with trade-offs and a recommendation; I decide. Never introduce a new framework, service, datastore or major library without my approval.
+- No duplicated code: one implementation per behavior, so a fix lands everywhere at once.
 - Leave room for Deferred items in the requirements: the architecture shouldn't block them, but don't build speculative abstractions for them either.
 
 ## Project profile (set in each project's docs/requirements.md)
