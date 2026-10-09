@@ -2,7 +2,7 @@
 
 My personal software standards and harness. Source of truth, symlinked into `~/.claude`.
 
-- `CLAUDE.md` → `~/.claude/CLAUDE.md` (global principles, loaded in every project)
+- `CLAUDE.md` → `~/.claude/CLAUDE.md` (global goals and practice, loaded in every project)
 - `skills/*` → `~/.claude/skills/*` (`/grill`, `/design-ui`, `/plan-change`, `/review-change`)
 - `templates/`: copy `requirements.md` and `architecture.md` into a project's `docs/`, and `feature.md` to `docs/features/<area>.md`
 
