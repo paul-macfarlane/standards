@@ -3,7 +3,7 @@
 Owned by Paul.
 
 ## Profile
-- **Profile:** prototype / product, small group / public-commercial
+- **Profile:** one of prototype | product, small group (or just me) | public/commercial
 - **Expected scale:** <rough users and usage, e.g. "~20 people, a few times a week">
 - **Exceptions to the standards:** <each rule excepted, why, and the goal it serves, or "none">
 
@@ -21,9 +21,9 @@ Owned by Paul.
 <Rules that span features: roles, navigation, what's structured data vs. free content. Leave empty if none.>
 
 ## Features
-| Feature | Use case (who, when) | Core journey? | Detail |
-|---|---|---|---|
-| <feature> | <e.g. "Mike, Sunday morning, checking his picks"> | yes/no | [features/<area>.md](features/<area>.md) or — |
+| Feature | Use case (who, when) | Detail |
+|---|---|---|
+| <feature> | <e.g. "Mike, Sunday morning, checking his picks"> | [features/<area>.md](features/<area>.md) or — |
 
 Several rows can share one feature doc.
 
