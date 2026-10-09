@@ -5,19 +5,23 @@ I own the requirements (functional and non-functional), the architecture and tec
 Any rule here can have an exception, but never a silent one: name the rule, the reason, and the goal it serves. Exceptions that last beyond one change go in the project's requirements Profile.
 
 ## Goals
-They'll evolve; keep the lists short.
+Each goal carries its reason; when goals conflict, the reasons decide. They'll evolve; keep the lists short.
 
-**Product** (what users get)
-- Known use case: every feature serves a real person in a real moment. No "nice to haves."
-- Radical simplicity, no fluff. Show the useful information up front; everything else is a tap away. Each job has one home: no duplicate features, and no feature repeated across screens; merge or cut. Alternative inputs for accessibility or mobile don't count.
-- Mobile is a first-class viewport on every web app.
-- Consistent experience within an app. Apps don't need to match each other.
-- Accessible by default.
-- A personal touch that fits the product's theme. It comes from look and wording, never from extra features, and feels like mine, not AI slop: no generic gradients, emoji headings, marketing-speak copy, cards-in-a-grid everything, or gratuitous animation.
+**Product:** everything I build is useful and helpful to the people using it.
+- Known use case: every feature serves a real person in a real moment. No "nice to haves." A feature nobody needs still costs building and upkeep, and clutters the app for the people it's for.
+- Radical simplicity, no fluff: every extra element makes the thing the user came for harder to find. Show the useful information up front; everything else is a tap away. Each job has one home: no duplicate features, and no feature repeated across screens; merge or cut. Alternative inputs for accessibility or mobile don't count.
+- Mobile first-class on every web app: most use happens on a phone, away from a desk.
+- Usable: consistent within an app, so users learn it once. Apps don't need to match each other.
+- Accessible by default: nobody gets shut out, and accessible apps are clearer for everyone.
+- A personal touch that fits the product's theme: it makes the app feel made for its people, not generic. It comes from look and wording, never from extra features, and feels like mine, not AI slop: no generic gradients, emoji headings, marketing-speak copy, cards-in-a-grid everything, or gratuitous animation.
 
 **Engineering**
-- Reliability, security, simplicity, testability, observability.
-- Scalability, only when the project expects serious scale (see its profile).
+- Reliability: people rely on the app at the moment they need it, and a failure costs their trust.
+- Security: apps hold people's data, and a breach harms them in ways that can't be undone.
+- Simplicity: less to break, faster to change, and easier for me or an agent to understand.
+- Testability: changes can be made quickly and with confidence.
+- Observability: I find out something broke, and can fix it, before users have to tell me.
+- Scalability, only when the project expects serious scale (see its profile): scale adds cost and complexity that small apps never pay back.
 
 ## Engineering practice
 - Tests build confidence that it works. Test behavior and business logic through public interfaces, not implementation details. Don't mock our own internals.
