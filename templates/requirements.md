@@ -17,14 +17,17 @@ Owned by Paul. AI may propose changes; none land without approval.
 - **Design system:** <Claude Design link: colors, type, core components>
 - **Screens:** <Claude Design link(s) for approved screens>
 
+## App-wide rules
+<Rules that span features: roles, navigation, what's structured data vs. free content. Leave empty if none.>
+
 ## Features
 Each feature names who uses it and when. If it can't, it doesn't belong here.
 
 | Feature | Use case (who, when) | Core journey? | Detail |
 |---|---|---|---|
-| <feature> | <e.g. "Mike, Sunday morning, checking his picks"> | yes/no | [features/<feature>.md](features/<feature>.md) or — |
+| <feature> | <e.g. "Mike, Sunday morning, checking his picks"> | yes/no | [features/<area>.md](features/<area>.md) or — |
 
-Core journeys get e2e coverage.
+One use-case sentence per row. Any rule beyond that goes in the linked feature doc; several rows can share one. Core journeys get e2e coverage.
 
 ## Non-functional
 <Only what differs from or adds to the global standards. Leave empty if nothing does.>

@@ -1,6 +1,6 @@
-# <Feature>
+# <Feature area>
 
-**Use case:** <who, when>
+**Features:** <the requirements table rows this doc covers>
 **Core journey:** yes/no
 **Design:** <Claude Design link>
 

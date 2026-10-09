@@ -17,6 +17,7 @@ I own the requirements (functional and non-functional), the architecture and tec
 - Security, reliability, simplicity, testability, observability.
 - Scale only when the project profile says public/commercial.
 - Tests build confidence that it works. Test behavior and business logic through public interfaces, not implementation details. Don't mock our own internals.
+- Verify before presenting. Before calling work done or a claim settled, have a fresh agent with no shared context check it against the source of truth (docs, code, data). Fix what it finds, and say what was checked.
 - Keep test time down. Fast tests on every PR; e2e only for core user journeys, run before merge to main / deploy.
 - Architecture and tech stack are my decisions. Propose options with trade-offs and a recommendation; I decide. Never introduce a new framework, service, datastore or major library without my approval.
 - Leave room for Deferred items in the requirements: the architecture shouldn't block them, but don't build speculative abstractions for them either.
@@ -29,8 +30,8 @@ I own the requirements (functional and non-functional), the architecture and tec
 
 ## Requirements and docs
 Docs in the repo are the single source of truth for humans and agents. No wikis, no parallel docs.
-- `docs/requirements.md` is mine: profile, purpose, character, design links, feature index. Read it in full before any feature work.
-- `docs/features/<feature>.md` is mine: current rules, edge cases and core journey for features that need more than a table row. Read the ones your work touches. Current truth only, no history.
+- `docs/requirements.md` is mine: profile, purpose, character, design links, app-wide rules, feature index. Read it in full before any feature work.
+- `docs/features/<area>.md` is mine: current rules, edge cases and core journey for a feature area. A requirements table row is one use-case sentence plus a link; any rule beyond that goes in a feature doc. App-wide rules (roles, navigation, what's structured data vs. free content) and non-functional requirements stay in `requirements.md`. Each rule lives in exactly one doc. Read the feature docs your work touches. Current truth only, no history.
 - `docs/architecture.md` is mine: tech stack, high-level structure, key decisions and why. Read it before any implementation work.
 - `docs/work/<NNN-slug>.md` is yours: one per work package (features touched, plan, status, summary). Delete it when done; requirement changes must already be in the docs above.
 - Never edit my docs without my approval.
