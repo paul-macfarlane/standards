@@ -3,8 +3,7 @@
 Owned by Paul.
 
 ## Profile
-- **Audience:** just me / small group / public-commercial
-- **Stage:** prototype / product
+- **Profile:** prototype / product, small group / public-commercial
 - **Expected scale:** <rough users and usage, e.g. "~20 people, a few times a week">
 - **Exceptions to the standards:** <each rule excepted, why, and the goal it serves, or "none">
 

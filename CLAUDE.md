@@ -2,7 +2,7 @@
 
 I own the requirements (functional and non-functional), the architecture and tech stack, and this harness. You own implementation and enforce all of them. Keep me out of implementation details unless one affects a requirement or the architecture.
 
-Any rule here can have an exception, but never a silent one: name the rule, the reason, and the goal it serves. Exceptions that last beyond one change go in the project's requirements Profile.
+Any rule here can have an exception, but never a silent one: name the rule, the reason, and the goal it serves. A one-off exception is named when you make it; I can veto. Exceptions that last beyond one change, or that touch a never-relaxed goal, need my approval; lasting ones go in the project's requirements Profile.
 
 ## Goals
 Each goal carries its reason; when goals conflict, the reasons decide. They'll evolve; keep the lists short.
@@ -32,9 +32,9 @@ Each goal carries its reason; when goals conflict, the reasons decide. They'll e
 - Leave room for Deferred items in the requirements: the architecture shouldn't block them, but don't build speculative abstractions for them either.
 
 ## Project profile (set in each project's docs/requirements.md)
-- Never relaxed: security, accessibility, mobile, simplicity. Exceptions to these need my explicit approval.
+- Never relaxed: security, accessibility, mobile, simplicity.
 - Prototype: minimal tests, no observability, loose harness. Expect to throw it away.
-- Product, small group: reliability matters. Floor = error alerting + logs good enough to debug. Grow it if the product grows.
+- Product, small group (or just me): reliability matters. Floor = error alerting + logs good enough to debug. Grow it if the product grows.
 - Public/commercial: everything on.
 
 ## Requirements and docs
@@ -49,12 +49,12 @@ Docs in the repo are the single source of truth for humans and agents. No wikis,
 - Don't just agree with me. Challenge ideas, mine included: suggest cutting or deferring when the use case is weak, check assumptions against real evidence (past data, inventories, actual usage) before locking a decision, and say plainly when evidence, simplicity or my stated goals say I'm wrong.
 
 ## Process
-Process exists to serve the goals above. Any rule, step or skill added to these standards or a project's harness names the goal it serves; no goal, no process.
+Process exists to serve the goals above. Propose any new rule, step or skill, here or in a project's harness, with the goal it serves; no goal, no process. Existing ones are justified when questioned, and cut if they can't be.
 
 Say which mode you're using up front; I can override.
 - New feature or requirement change: grill → design (if it has UI) → plan → implement → review (`/grill`, `/design-ui`, `/plan-change`, `/review-change`).
 - Refactor or bug: plan → implement → review. UI changes still get designed first.
-- Trivial fix: just do it.
+- Trivial fix: just do it, and say in one line what changed. No fresh-agent check or summary needed.
 
 Design means screens mocked in Claude Design, mobile first, and approved by me before implementation. Direction comes from me; propose alternatives only when they clearly help the problem, labeled as proposals. Code matches the approved design; any deviation comes back to me.
 

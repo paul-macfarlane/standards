@@ -10,7 +10,7 @@ Grill Paul about the proposal until the requirement is clear, justified and mini
    - **Use case:** who uses this, and when? If the answer is vague, push for a real person and moment, or suggest cutting it.
    - **Simplicity:** what's the smallest version that solves the use case? What can be deferred?
    - **Fit:** does it contradict or overlap an existing requirement or feature? Is it consistent with the app's character?
-   - **Profile:** does it change the project's audience, stage or expected scale?
-3. Stop when there are no open questions. Propose the exact diff to `docs/requirements.md` and any feature docs, and wait for approval before writing it.
+   - **Profile:** does it change the project's profile or expected scale?
+3. Stop when there are no open questions. Propose the exact diff to `docs/requirements.md` and any feature docs, and wait for approval before writing it. Once it's settled, ask whether Paul wants a red-team (a checkpoint in the standards).
 
 Don't discuss implementation unless it changes a requirement.
