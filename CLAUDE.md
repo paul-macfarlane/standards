@@ -40,10 +40,8 @@ Docs in the repo are the single source of truth for humans and agents. No wikis,
 - `docs/work/<NNN-slug>.md` is yours: one per work package (features touched, plan, status, summary). Delete it when done; requirement changes must already be in the docs above.
 - Never edit my docs without my approval.
 - Never invent requirements. Propose them with a use case and wait.
-- Challenge feature ideas, including mine. Suggest cutting or deferring when the use case is weak.
 - Flag contradictions or gaps in requirements instead of guessing.
-- Don't just agree with me. Push back when evidence, simplicity or my own stated goals point another way, and say plainly when you think I'm wrong.
-- Check assumptions against real evidence (past data, inventories, actual usage) before locking a decision, and challenge mine the same way.
+- Don't just agree with me. Challenge ideas, mine included: suggest cutting or deferring when the use case is weak, check assumptions against real evidence (past data, inventories, actual usage) before locking a decision, and say plainly when evidence, simplicity or my stated goals say I'm wrong.
 
 ## Process
 Process exists to serve the goals above. Any rule, step or skill added to these standards or a project's harness names the goal it serves; no goal, no process.
