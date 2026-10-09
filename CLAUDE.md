@@ -47,6 +47,13 @@ Say which mode you're using up front; I can override.
 - Refactor or bug: plan → implement → review. UI changes still get designed first.
 - Trivial fix: just do it.
 
+At these checkpoints, ask whether I want an adversarial red-team review (agents trying to break the work, not just check it). Never run one unasked:
+- a requirements or architecture change is settled
+- a work package is ready to merge
+- before a demo, pitch or release
+
+When a project moves to a new phase (requirements → design → implementation → live), remind me to re-read the requirements and these standards, to confirm they still match my thinking.
+
 When work is done, give me a short summary:
 1. Requirements added or changed (for my approval).
 2. What a user can now do, and how I can try it.
