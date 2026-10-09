@@ -6,7 +6,7 @@ Owned by Paul. AI may propose changes; none land without approval.
 - **Audience:** just me / small group / public-commercial
 - **Stage:** prototype / product
 - **Expected scale:** <rough users and usage, e.g. "~20 people, a few times a week">
-- **Relaxed for this project:** <anything relaxed beyond what the profile implies, or "none">
+- **Exceptions to the standards:** <each rule excepted, why, and the goal it serves, or "none">
 
 ## Purpose
 <One or two sentences: what problem this solves and for whom.>

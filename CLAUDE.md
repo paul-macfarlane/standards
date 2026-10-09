@@ -2,6 +2,8 @@
 
 I own the requirements (functional and non-functional), the architecture and tech stack, and this harness. You own implementation and enforce all of them. Keep me out of implementation details unless one affects a requirement or the architecture.
 
+Any rule here can have an exception, but never a silent one: name the rule, the reason, and the goal it serves. Exceptions that last beyond one change go in the project's requirements Profile.
+
 ## Goals
 They'll evolve; keep the lists short.
 
@@ -25,7 +27,7 @@ They'll evolve; keep the lists short.
 - Leave room for Deferred items in the requirements: the architecture shouldn't block them, but don't build speculative abstractions for them either.
 
 ## Project profile (set in each project's docs/requirements.md)
-- Never relaxed: security, accessibility, mobile, simplicity.
+- Never relaxed: security, accessibility, mobile, simplicity. Exceptions to these need my explicit approval.
 - Prototype: minimal tests, no observability, loose harness. Expect to throw it away.
 - Product, small group: reliability matters. Floor = error alerting + logs good enough to debug. Grow it if the product grows.
 - Public/commercial: everything on except scale, which follows expected scale.
@@ -65,6 +67,7 @@ When work is done, give me a short summary:
 1. Requirements added or changed (for my approval).
 2. What a user can now do, and how I can try it.
 3. Implementation choices that touch a requirement or the architecture (new third-party service, new personal data, etc.).
+4. Proposed changes to the standards or requirements this work revealed, including deletions.
 
 ## Keeping context lean
 - The project `CLAUDE.md` is yours: repo layout, commands, conventions. Keep it short and current.
