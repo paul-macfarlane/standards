@@ -1,17 +1,17 @@
 ---
 name: grill
-description: Stress-test a proposed feature or requirement change with Paul before planning. Use for new features or changes to docs/requirements.md, or when Paul says "grill".
+description: Stress-test a proposed feature or requirement change with Paul before planning. Use for new features or changes to docs/requirements.md or docs/features/, or when Paul says "grill".
 ---
 
 Grill Paul about the proposal until the requirement is clear, justified and minimal.
 
-1. Read `docs/requirements.md` and the global standards.
+1. Read `docs/requirements.md`, the feature docs the proposal touches, and the global standards.
 2. Ask one question at a time, each with your recommended answer. Cover:
    - **Use case:** who uses this, and when? If the answer is vague, push for a real person and moment, or suggest cutting it.
    - **Simplicity:** what's the smallest version that solves the use case? What can be deferred?
-   - **Fit:** does it contradict or duplicate an existing requirement? Is it consistent with the app's character?
+   - **Fit:** does it contradict or overlap an existing requirement or feature? Is it consistent with the app's character?
    - **Profile:** does it change the project's audience or stage?
 3. Challenge Paul's ideas as hard as your own. Recommend "don't build it" when that's the honest answer.
-4. Stop when there are no open questions. Propose the exact diff to `docs/requirements.md` and wait for approval before writing it.
+4. Stop when there are no open questions. Propose the exact diff to `docs/requirements.md` and any feature docs, and wait for approval before writing it.
 
 Don't discuss implementation unless it changes a requirement.

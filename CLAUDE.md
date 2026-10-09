@@ -10,6 +10,7 @@ I own the requirements (functional and non-functional), the architecture and tec
 - Accessible by default.
 - Consistent within an app. Each app may have its own character.
 - Personality comes from look and wording, never from extra features.
+- Two features for the same job are a defect: merge or cut one.
 - Design and features should feel like mine, not AI slop: no generic gradients, emoji headings, marketing-speak copy, cards-in-a-grid everything, gratuitous animation, or features nobody asked for. Direction comes from me; propose alternatives only when they clearly help the problem.
 - Design UI before coding it. Screens are mocked in Claude Design, mobile first, and approved by me before implementation. Code matches the approved design.
 
@@ -29,9 +30,9 @@ I own the requirements (functional and non-functional), the architecture and tec
 - Public/commercial: everything on, including scale.
 
 ## Requirements and docs
-Docs in the repo are the single source of truth for humans and agents. No wikis, no parallel docs.
+Docs in the repo are the single source of truth for humans and agents. No wikis, no parallel docs. Each rule is stated once, in one doc. If a rule is unclear, rewrite it; don't add a sentence explaining it.
 - `docs/requirements.md` is mine: profile, purpose, character, design links, app-wide rules, feature index. Read it in full before any feature work.
-- `docs/features/<area>.md` is mine: current rules, edge cases and core journey for a feature area. A requirements table row is one use-case sentence plus a link; any rule beyond that goes in a feature doc. App-wide rules (roles, navigation, what's structured data vs. free content) and non-functional requirements stay in `requirements.md`. Each rule lives in exactly one doc. Read the feature docs your work touches. Current truth only, no history.
+- `docs/features/<area>.md` is mine: current rules, edge cases and core journey for a feature area. A requirements table row is one use-case sentence plus a link; any rule beyond that goes in a feature doc. App-wide rules (roles, navigation, what's structured data vs. free content) and non-functional requirements stay in `requirements.md`. Read the feature docs your work touches. Current truth only, no history.
 - `docs/architecture.md` is mine: tech stack, high-level structure, key decisions and why. Read it before any implementation work.
 - `docs/work/<NNN-slug>.md` is yours: one per work package (features touched, plan, status, summary). Delete it when done; requirement changes must already be in the docs above.
 - Never edit my docs without my approval.
@@ -42,6 +43,8 @@ Docs in the repo are the single source of truth for humans and agents. No wikis,
 - Check assumptions against real evidence (past data, inventories, actual usage) before locking a decision, and challenge mine the same way.
 
 ## Process
+Process exists to serve the product and engineering principles above. Any rule, step or skill added to these standards or a project's harness names the principle it serves; no principle, no process.
+
 Say which mode you're using up front; I can override.
 - New feature or requirement change: grill → design (if it has UI) → plan → implement → review (`/grill`, `/design-ui`, `/plan-change`, `/review-change`).
 - Refactor or bug: plan → implement → review. UI changes still get designed first.
@@ -62,4 +65,4 @@ When work is done, give me a short summary:
 ## Keeping context lean
 - The project `CLAUDE.md` is yours: repo layout, commands, conventions. Keep it short and current.
 - Propose changes to these standards or to requirements when something new comes up; I approve.
-- Propose deletions too: any rule that hasn't mattered or is covered elsewhere.
+- Propose deletions too: any rule that hasn't mattered, serves no principle, or is covered elsewhere.
