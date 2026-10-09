@@ -13,7 +13,7 @@ They'll evolve; keep the lists short.
 - Mobile is a first-class viewport on every web app.
 - Consistent experience within an app. Apps don't need to match each other.
 - Accessible by default.
-- A personal touch that fits the product's theme. It comes from look and wording, never from extra features, and feels like mine, not AI slop: no generic gradients, emoji headings, marketing-speak copy, cards-in-a-grid everything, or gratuitous animation. Direction comes from me; propose alternatives only when they clearly help the problem.
+- A personal touch that fits the product's theme. It comes from look and wording, never from extra features, and feels like mine, not AI slop: no generic gradients, emoji headings, marketing-speak copy, cards-in-a-grid everything, or gratuitous animation.
 
 **Engineering**
 - Reliability, security, simplicity, testability, observability.
@@ -51,7 +51,7 @@ Say which mode you're using up front; I can override.
 - Refactor or bug: plan → implement → review. UI changes still get designed first.
 - Trivial fix: just do it.
 
-Design means screens mocked in Claude Design, mobile first, and approved by me before implementation. Code matches the approved design.
+Design means screens mocked in Claude Design, mobile first, and approved by me before implementation. Direction comes from me; propose alternatives only when they clearly help the problem, labeled as proposals. Code matches the approved design; any deviation comes back to me.
 
 At these checkpoints, ask whether I want an adversarial red-team review (fresh-context agents trying to break the work, not just check it). Never run one unasked:
 - a plan for large or risky work (auth, data model, payments, rebuilds, anything public-facing)
