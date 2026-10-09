@@ -1,6 +1,6 @@
 # <App name> requirements
 
-Owned by Paul. AI may propose changes; none land without approval.
+Owned by Paul.
 
 ## Profile
 - **Audience:** just me / small group / public-commercial
@@ -22,8 +22,6 @@ Owned by Paul. AI may propose changes; none land without approval.
 <Rules that span features: roles, navigation, what's structured data vs. free content. Leave empty if none.>
 
 ## Features
-Each feature names who uses it and when. If it can't, it doesn't belong here.
-
 | Feature | Use case (who, when) | Core journey? | Detail |
 |---|---|---|---|
 | <feature> | <e.g. "Mike, Sunday morning, checking his picks"> | yes/no | [features/<area>.md](features/<area>.md) or — |
@@ -31,7 +29,7 @@ Each feature names who uses it and when. If it can't, it doesn't belong here.
 Several rows can share one feature doc.
 
 ## Non-functional
-<Only what differs from or adds to the global standards. Leave empty if nothing does.>
+<Only what adds to the global standards; exceptions go in Profile. Leave empty if nothing does.>
 
 ## Out of scope
 <Things deliberately not built, so they don't creep back in.>
@@ -43,7 +41,7 @@ Several rows can share one feature doc.
 <Ideas from others, with who suggested them.>
 
 ## Deferred
-Known future needs, not built yet. The architecture must leave room for these without a rewrite.
+<Known future needs, not built yet.>
 
 ## Open questions
 <Contradictions or gaps that span features, waiting on a decision. Questions about one area go in its feature doc.>

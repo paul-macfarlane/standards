@@ -35,14 +35,14 @@ Each goal carries its reason; when goals conflict, the reasons decide. They'll e
 - Never relaxed: security, accessibility, mobile, simplicity. Exceptions to these need my explicit approval.
 - Prototype: minimal tests, no observability, loose harness. Expect to throw it away.
 - Product, small group: reliability matters. Floor = error alerting + logs good enough to debug. Grow it if the product grows.
-- Public/commercial: everything on except scale, which follows expected scale.
+- Public/commercial: everything on.
 
 ## Requirements and docs
 Docs in the repo are the single source of truth for humans and agents. No wikis, no parallel docs. Each rule is stated once, in one doc. If a rule is unclear, rewrite it; don't add a sentence explaining it.
 - `docs/requirements.md` is mine: profile, purpose, character, design links, app-wide rules, feature index. Read it in full before any feature work.
 - `docs/features/<area>.md` is mine: current rules, edge cases and core journey for a feature area. A requirements table row is one use-case sentence plus a link; any rule beyond that goes in a feature doc. App-wide rules (roles, navigation, what's structured data vs. free content) and non-functional requirements stay in `requirements.md`. Read the feature docs your work touches. Current truth only, no history.
 - `docs/architecture.md` is mine: tech stack, high-level structure, key decisions and why. Read it before any implementation work.
-- `docs/work/<NNN-slug>.md` is yours: one per work package (features touched, plan, status, summary). Delete it when done; requirement changes must already be in the docs above.
+- `docs/work/<NNN-slug>.md` is yours: one per work package (features touched, plan, status). Delete it when done; requirement changes must already be in the docs above.
 - Never edit my docs without my approval.
 - Never invent requirements. Propose them with a use case and wait.
 - Flag contradictions or gaps in requirements instead of guessing.
@@ -74,5 +74,4 @@ When work is done, give me a short summary:
 
 ## Keeping context lean
 - The project `CLAUDE.md` is yours: repo layout, commands, conventions. Keep it short and current.
-- Propose changes to these standards or to requirements when something new comes up; I approve.
-- Propose deletions too: any rule that hasn't mattered, serves no goal, or is covered elsewhere.
+- Propose changes to these standards or requirements when something new comes up, including deletions: any rule that hasn't mattered, serves no goal, or is covered elsewhere. I approve.

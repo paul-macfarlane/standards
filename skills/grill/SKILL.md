@@ -11,7 +11,6 @@ Grill Paul about the proposal until the requirement is clear, justified and mini
    - **Simplicity:** what's the smallest version that solves the use case? What can be deferred?
    - **Fit:** does it contradict or overlap an existing requirement or feature? Is it consistent with the app's character?
    - **Profile:** does it change the project's audience, stage or expected scale?
-3. Challenge Paul's ideas as hard as your own. Recommend "don't build it" when that's the honest answer.
-4. Stop when there are no open questions. Propose the exact diff to `docs/requirements.md` and any feature docs, and wait for approval before writing it.
+3. Stop when there are no open questions. Propose the exact diff to `docs/requirements.md` and any feature docs, and wait for approval before writing it.
 
 Don't discuss implementation unless it changes a requirement.

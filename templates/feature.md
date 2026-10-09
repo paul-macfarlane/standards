@@ -1,7 +1,9 @@
 # <Feature area>
 
 **Features:** <the requirements table rows this doc covers>
-**Core journey:** yes/no
+
+## Core journey
+<The steps, if this area has a core journey. Otherwise delete this section.>
 
 ## Rules
 <Business rules, stated as current truth.>

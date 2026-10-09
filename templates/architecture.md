@@ -1,6 +1,6 @@
 # <App name> architecture
 
-Owned by Paul. AI proposes options; Paul decides.
+Owned by Paul.
 
 ## Stack
 <One line per choice, with a short why: framework, language, UI, validation, hosting, database, auth, testing, observability, and any other key library.>
