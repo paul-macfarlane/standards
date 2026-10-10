@@ -13,3 +13,6 @@
 
 ## Open questions
 <Contradictions or gaps in this area, waiting on a decision.>
+
+## Examples
+<Optional: one line per real case the rules refer to, past events included (illustrations, not change history). No rules here; rules stay in Rules. Delete if not needed.>

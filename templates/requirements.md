@@ -6,9 +6,13 @@ Owned by Paul.
 - **Profile:** one of prototype | product, small group (or just me) | public/commercial
 - **Expected scale:** <rough users and usage, e.g. "~20 people, a few times a week">
 - **Exceptions to the standards:** <each rule excepted, why, and the goal it serves, or "none">
+- **Context that shapes priorities:** <optional: only facts that change what gets built or when, e.g. next release, a demo, a deadline. Remove each once it's past.>
 
 ## Purpose
 <One or two sentences: what problem this solves and for whom.>
+
+### Problems it solves
+<Optional: the specific problems, numbered so features and decisions can point to them. Delete if not needed.>
 
 ## Character
 <How the app should look and sound. A few words on tone, visual feel, anything that makes it its own.>
